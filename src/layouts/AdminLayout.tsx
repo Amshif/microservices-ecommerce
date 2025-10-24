@@ -16,11 +16,9 @@ import { toast } from 'sonner';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-interface AdminLayoutProps {
-  children: ReactNode;
-}
 
-export const AdminLayout = ({ children }: AdminLayoutProps) => {
+
+export const AdminLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
