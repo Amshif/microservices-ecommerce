@@ -13,7 +13,7 @@ import OrderConfirmation from "./pages/OrderConfirmation";
 import NotFound from "./pages/NotFound";
 
 import AdminLogin from "./pages/admin/AdminLogin";
-import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminDashboard from "./pages/admin/dashboard/AdminDashboard";
 import AdminProducts from "./pages/admin/AdminProducts";
 import AdminOrders from "./pages/admin/AdminOrders";
 
